@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <% for(let member of data){ %>
+    <a href="/member/<%= member.id %>"><h4>Name: <%= member.name %></h4></a>
+    <p></p>
+    <p>Profession: <%= member.profession %></p>
+    <p>Description: <%= member.description %></p>
+    <img src="image.jpg" alt="img" width="" height="150px" />
+    <% } %>
+  </body>
+</html>
