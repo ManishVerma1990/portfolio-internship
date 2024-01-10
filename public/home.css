@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 0.2rem;
+}
+
+#name {
+  display: inline;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: right;
+}
