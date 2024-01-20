@@ -17,6 +17,7 @@ main()
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "/public")));
+app.use(express.urlencoded({ extended: true }));
 
 app.listen("8080", () => {
   console.log("app is listening to port 8080");
@@ -43,6 +44,8 @@ const memberSchema = new mongoose.Schema({
   profession: String,
   image: String,
   description: String,
+  education: String,
+  technologies: String,
   works: [
     {
       title: String,

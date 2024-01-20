@@ -3,21 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="home.css" />
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar">
-      <div id="name-box">
-        <h1 id="name">WebDevGroup</h1>
+    <div id="video-container">
+      <video autoplay loop muted src="https://cdn.shopify.com/b/shopify-brochure2-assets/488d6fb493040e46e45a1dcb7e899e79.mp4"></video>
+    </div>
+    <section class="front-page">
+      <nav class="navbar">
+        <div class="brand-name"><span>WDB</span>&nbsp; WebDevBussiness</div>
+        <div class="nav-links">
+          <div class="nav-link"><a href="/">Home</a></div>
+          <div class="nav-link"><a href="/">Services</a></div>
+          <div class="nav-link"><a href="/">Contact</a></div>
+          <div class="nav-link"><a href="/">About us</a></div>
+          <div class="nav-link"><a href="/">Join us</a></div>
+        </div>
+      </nav>
+      <section id="wlcm-msg">
+        <h1>Go Online & Boost your Bussiness</h1>
+        <div id="stock-svg">
+          <?xml version="1.0" encoding="UTF-8"?><svg
+            width="15rem"
+            height="15rem"
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="6" y="20" width="8" height="14" fill="none" stroke="#fff" stroke-width="1" stroke-linejoin="round" />
+            <rect x="20" y="14" width="8" height="26" fill="none" stroke="#fff" stroke-width="1" stroke-linejoin="round" />
+            <path d="M24 44V40" stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+            <rect x="34" y="12" width="8" height="9" fill="none" stroke="#fff" stroke-width="1" stroke-linejoin="round" />
+            <path d="M10 20V10" stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M38 34V21" stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M38 12V4" stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <p>
+          Elevate your business with an online presence! Go digital to expand reach, enhance visibility, and connect with a global
+          audience. Boost your brand, attract new customers, and stay competitive in the modern marketplace. Embrace the future,
+          amplify your impact, and watch your business thrive online!
+        </p>
+        <div class="anim-txt"><p>this is animated txt.</p></div>
+      </section>
+      <div id="order-div">
+        <a id="order-btn" href="">Order Now!</a>
       </div>
-      <div class="nav-links">
-        <a class="nav-link" href="">Home</a>
-        <a class="nav-link" href="">Services</a>
-        <a class="nav-link" href="">Contact</a>
-        <a class="nav-link" href="">About us</a>
-        <a class="nav-link" href="">Join us</a>
+    </section>
+    <section id="service-page">
+      <div id="service-intro">
+        <h1 class="big-head">Our Website Development Services</h1>
+        <p>
+          We offer a range of website development services that are tailored to our clients' needs. Our team of experts can help you
+          build a website that is both functional and visually appealing. We specialize in creating websites for small businesses and
+          startups, and we understand the unique challenges that these businesses face.
+        </p>
       </div>
-    </nav>
+      <div id="services">
+        <div class="txt" id="txt-bg-green">
+          <h1>Custom Solutions</h1>
+          <p>
+            We understand that every business is unique, and we offer custom website development solutions to meet your specific needs.
+            Whether you need an e-commerce site or a portfolio website, we can help you build a website that meets your goals.
+          </p>
+        </div>
+        <div class="txt" id="txt-bg-blue">
+          <h1>Responsive Design</h1>
+          <p>
+            All of our websites are designed to be responsive, which means they look great on any device. Whether your customers are
+            browsing on a desktop or a mobile device, your website will look great and be easy to use.
+          </p>
+        </div>
+        <div class="txt" id="txt-bg-orange">
+          <h1>Search Engine Optimization</h1>
+          <p>
+            We offer search engine optimization services to help your website rank higher in search engine results. This means more
+            traffic to your website and more potential customers for your business.
+          </p>
+        </div>
+      </div>
+      <div class="item-center">
+        <span class="anim-txt anim-txt-black"><p>this is animated txt.</p></span>
+      </div>
+    </section>
+    <section class="projects">
+      <h1 class="big-head">Our Projects</h1>
+    </section>
+
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+      ></script> -->
   </body>
 </html>
